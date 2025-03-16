@@ -2,9 +2,9 @@ require("dotenv").config();
 
 module.exports = {
     token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
-    prefix: process.env.PREFIX || "f?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
-    color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
-    owner: process.env.OWNER_ID || "900708551805268019", // <==== BOTS OWNER ID
+    prefix: process.env.PREFIX || "+", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
+    color: process.env.EMBED_COLOR || "#ff0000", // <==== YOU EMBEDED HEX COLOR
+    owner: process.env.OWNER_ID || "1282344443109838903, 1035523468650872883", // <==== BOTS OWNER ID
     guildLogs: process.env.GUILD_LOGS || "000000000000000", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
     leaveTimeout: process.env.LEAVE_TIMEOUT || "20000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
@@ -42,10 +42,10 @@ module.exports = {
 
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
-    supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
+    supportUrl: process.env.SUPPORT_URL || "https://dsc.gg/nirvax", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
-    inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
-    imageUrl: process.env.IMAGE_URL || "https://i.imgur.com/HB32QqX.png", // <==== YOUR IMAGE LINK 
+    inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1297474705867145287&permissions=603221717739584&integration_type=0&scope=bot", // <==== YOUR BOT INVITE LINK
+    imageUrl: process.env.IMAGE_URL || "https://cdn.discordapp.com/attachments/1350357128409382912/1350403135633494048/standard.gif?ex=67d7452c&is=67d5f3ac&hm=2e757f510498dcbda5408844f864d13911aec47d0a245b0a01c6f2fd5eab8af5&", // <==== YOUR IMAGE LINK 
 };
 
 function parseBoolean(value) {
