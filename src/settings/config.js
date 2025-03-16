@@ -13,8 +13,8 @@ module.exports = {
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "YourSpotifyID", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "YourSpotifySecret", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "f71a3da30e254962965ca2a89d6f74b9", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "199a619d22dd4e55a4a2c1a7a3d70e63", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
@@ -24,17 +24,17 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "lavalink.mlserv.xyz", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "32669"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "dsc.gg/sciencegear", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST1 || "lavalink.jirayu.net", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "13592"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         },
         {
             name: process.env.NODE_NAME2 || "Node 2", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "lava.link", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT2 || "80"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD2 || "kronix", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST2 || "lavalink.jirayu.net", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT2 || "13591"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD2 || "youshallnotpass", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE2 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS2 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         }
@@ -43,7 +43,7 @@ module.exports = {
     // ⬇⬇⬇ LINK BOTS DETAILS
     mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://dsc.gg/nirvax", // <==== YOUR SUPPORT SERVER LINK
-    voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
+    voteUrl: process.env.VOTE_URL || "https://dsc.gg/nirvax", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1297474705867145287&permissions=603221717739584&integration_type=0&scope=bot", // <==== YOUR BOT INVITE LINK
     imageUrl: process.env.IMAGE_URL || "https://cdn.discordapp.com/attachments/1350357128409382912/1350403135633494048/standard.gif?ex=67d7452c&is=67d5f3ac&hm=2e757f510498dcbda5408844f864d13911aec47d0a245b0a01c6f2fd5eab8af5&", // <==== YOUR IMAGE LINK 
 };
