@@ -24,19 +24,10 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "lavalink.jirayu.net", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "13592"), // <==== LAVALINK PORT
+            host: process.env.NODE_HOST1 || "robinz_lavalink.4tunez.xyz", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "2333"), // <==== LAVALINK PORT
             password: process.env.NODE_PASSWORD1 || "youshallnotpass", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
-            regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
-        },
-        {
-            name: process.env.NODE_NAME2 || "Node 2", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "lavalink.jirayu.net", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT2 || "13591"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD2 || "youshallnotpass", // <==== PASSWORD/AUTH
-            secure: parseBoolean(process.env.NODE_SECURE2 || "false"), // <==== LAVALINK SECURE "true/false"
-            regions: process.env.NODE_REGIONS2 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         }
     ],
 
