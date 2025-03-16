@@ -32,7 +32,7 @@ module.exports = {
     ],
 
     // ⬇⬇⬇ LINK BOTS DETAILS
-    mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
+    mongoUri: process.env.MONGO_URI || "mongodb+srv://shiva:shiva@discordbot.opd5w.mongodb.net/?retryWrites=true&w=majority", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://dsc.gg/nirvax", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://dsc.gg/nirvax", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1297474705867145287&permissions=603221717739584&integration_type=0&scope=bot", // <==== YOUR BOT INVITE LINK
